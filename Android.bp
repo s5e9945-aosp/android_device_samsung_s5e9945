@@ -1,5 +1,8 @@
 soong_namespace {
-    imports: ["vendor/samsung/s5e9945"],
+    imports: [
+        "hardware/samsung",
+        "vendor/samsung/s5e9945",
+    ],
 }
 
 prebuilt_etc {
