@@ -70,6 +70,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1/proxy \
     hardware/samsung_slsi-linaro/graphics \
+    hardware/samsung_slsi-linaro/interfaces \
     hardware/samsung_slsi-linaro/sgpu
 
 
