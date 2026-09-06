@@ -45,6 +45,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('bin/gpsd_K43', 'bin/hw/gpsd_K43')
         .regex_replace('etc/firmware', 'firmware/gnss')
         .regex_replace('etc/cfg', 'etc/gnss'),
+    'vendor/bin/tzdaemon': blob_fixup()
+        .remove_needed('libuuid.so'),
     'vendor/etc/init/android.hardware.security.keymint-service.samsung.rc': blob_fixup()
         .regex_replace('-service', '-service.samsung'),
     (
@@ -93,13 +95,8 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 
-def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
-    return f'{lib}_{partition}' if partition == 'vendor' else None
-
-
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
-    'libuuid': lib_fixup_vendor_suffix,
 }
 
 module = ExtractUtilsModule(
