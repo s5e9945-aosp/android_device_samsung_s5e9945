@@ -1,5 +1,13 @@
 cc_binary {
+    name: "tzdaemon",
+    init_rc: ["tzdaemon.rc"],
+    srcs: ["tz.c"],
+    vendor: true,
+}
+
+cc_binary {
     name: "tzts_daemon",
+    init_rc: ["tzts_daemon.rc"],
     shared_libs: [
         "libcutils",
         "libteecl",
