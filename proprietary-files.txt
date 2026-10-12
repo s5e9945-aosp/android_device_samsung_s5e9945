@@ -61,13 +61,6 @@ vendor/etc/dqe/calib_data_colormode0_off.xml
 # Display - GPU firmware
 recovery/ramdisk/lib/firmware/sgpu/vangogh_lite_unified_evt1.bin:recovery/root/lib/firmware/sgpu/vangogh_lite_unified_evt1.bin
 
-# Fingerprint
-vendor/etc/init/init.fingerprint.rc
-vendor/lib64/libsfp_sensor.so
-vendor/lib64/libsfp_teegw.so
-vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so
-vendor/tee/00000000-0000-0000-0000-46494e474502
-
 # Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
