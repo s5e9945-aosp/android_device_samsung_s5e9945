@@ -63,10 +63,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     TARGET_SOC=s5e9945
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
-    s5e9945-base.config \
-    s5e9945-bazel.config \
-    s5e9945_user.config \
-    s5e9945-user.config
+    s5e9945-base_defconfig \
+    s5e9945-bazel_defconfig \
+    s5e9945-user_defconfig
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/samsung/s5e9945
 
