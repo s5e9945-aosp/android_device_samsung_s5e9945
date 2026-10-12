@@ -26,8 +26,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
 # Camera - HAL
-vendor/lib64/libExtIDRC.so
-vendor/lib64/libExtIRTA.so
 vendor/lib64/libIMUSensor.so
 vendor/lib64/libIRTA.so
 vendor/lib64/libeis_core.so
