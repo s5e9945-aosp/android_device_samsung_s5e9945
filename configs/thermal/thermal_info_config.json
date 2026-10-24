@@ -27,17 +27,17 @@
         },
         {
             "Name": "ISP",
-            "Type": "UNKNOWN",
+            "Type": "CAMERA",
             "Multiplier": 0.001
         },
         {
             "Name": "NPU",
-            "Type": "CPU",
+            "Type": "NPU",
             "Multiplier": 0.001
         },
         {
             "Name": "CP",
-            "Type": "UNKNOWN",
+            "Type": "MODEM",
             "Multiplier": 0.001
         },
         {
@@ -82,7 +82,7 @@
     "CoolingDevices": [
         {
             "Name": "thermal-isp-0",
-            "Type": "COMPONENT"
+            "Type": "CAMERA"
         },
         {
             "Name": "thermal-cpufreq-0",
@@ -102,11 +102,11 @@
         },
         {
             "Name": "thermal-dev-0",
-            "Type": "COMPONENT"
+            "Type": "NPU"
         },
         {
             "Name": "thermal-dev-1",
-            "Type": "COMPONENT"
+            "Type": "NPU"
         },
         {
             "Name": "thermal-gpufreq-0",
